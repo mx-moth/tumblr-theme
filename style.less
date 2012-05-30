@@ -80,7 +80,7 @@ em { font-style: italic; }
 
 	h1 {
 		position: relative;
-		padding: 1em 1em 0 (1em + @columnGap);
+		padding: 0 1em 0 (1em + @columnGap);
 		margin-left: @leftColumn - @columnGap;
 		padding-left: @columnGap;
 
@@ -89,15 +89,15 @@ em { font-style: italic; }
 			color : inherit;
 			text-decoration: none;
 			display: block;
+			padding-top: 1em;
 		}
 
 		img {
 			position: absolute;
 			top: 0px;
 			right: 100%;
-			padding: 5px;
-			margin-right: -5px;
-			background-color: white;
+			height: 100%;
+			border-radius: 2px;
 		}
 
 		.description {
