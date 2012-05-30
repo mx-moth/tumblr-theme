@@ -137,6 +137,7 @@ em {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 3px solid black;
+  background-color: #FF7104;
 }
 #header h1 {
   position: relative;
