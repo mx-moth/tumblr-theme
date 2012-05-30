@@ -112,7 +112,7 @@ body {
   line-height: 1.2;
   font-family: sans-serif;
   color: black;
-  background-color: white;
+  background-color: #eeeeee;
 }
 ol, ul {
   margin-left: 2em;
@@ -135,9 +135,8 @@ em {
 }
 #header {
   padding: 1em;
-  margin-bottom: 1em;
   border-bottom: 3px solid black;
-  background-color: #FF7104;
+  background-color: #ff7104;
 }
 #header h1 {
   position: relative;
@@ -164,9 +163,10 @@ em {
 }
 #content {
   clear: both;
-  padding-top: 1em;
-  margin: 0 1em;
+  padding: 1em;
   position: relative;
+  overflow: hidden;
+  background-color: white;
 }
 #content h2,
 #content h3,
@@ -244,12 +244,10 @@ article.quote blockquote cite:before {
 footer {
   font-size: 0.9em;
   font-color: #333;
-  min-height: 100%;
   border-top: 3px solid black;
   border-radius: 3px;
   padding: 1em;
   overflow: hidden;
-  background-color: #eeeeee;
 }
 footer div.inner {
   margin-left: 20em;
