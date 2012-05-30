@@ -243,14 +243,19 @@ article.quote blockquote cite:before {
 footer {
   font-size: 0.9em;
   font-color: #333;
+  min-height: 100%;
   border-top: 3px solid black;
   border-radius: 3px;
   padding: 1em;
   overflow: hidden;
   background-color: #eeeeee;
 }
+footer div.inner {
+  margin-left: 20em;
+  position: relative;
+}
 footer section {
-  width: 30%;
+  width: 49%;
   margin-right: 1%;
   float: left;
 }
@@ -264,10 +269,4 @@ footer section ul {
 }
 footer section form {
   margin-bottom: 1em;
-}
-footer #copyright {
-  clear: both;
-  margin-top: 1em;
-  text-align: center;
-  font-size: 0.8em;
 }
